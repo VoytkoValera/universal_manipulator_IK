@@ -1,0 +1,8 @@
+prefix=/home/user/4_ws/install
+
+Name: arm10
+Description: Description of arm10
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

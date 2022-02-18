@@ -1,0 +1,940 @@
+2022-02-08 09:59:45 Using browser-only version of superagent in non-browser environment
+2022-02-08 09:59:45 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2022-02-08 09:59:45 root INFO Configuration directory URI: 'file:///home/user/.theia'
+2022-02-08 09:59:45 root ERROR (node:11577) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2022-02-08 09:59:46 root INFO Theia app listening on http://localhost:33743.
+2022-02-08 09:59:46 root WARN The local plugin referenced by local-dir:/home/user/.arduinoIDE/plugins does not exist.
+2022-02-08 09:59:46 root WARN The local plugin referenced by local-dir:/home/user/.arduinoIDE/extensions does not exist.
+2022-02-08 09:59:46 root WARN The local plugin referenced by local-dir:/home/user/.arduinoProIDE/plugins does not exist.
+2022-02-08 09:59:46 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-02-08 09:59:46 root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@0.3.10" with engines:
+2022-02-08 09:59:46 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-02-08 09:59:46 root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.2-beta.1" with engines:
+2022-02-08 09:59:46 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-02-08 09:59:46 root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2022-02-08 09:59:46 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-02-08 09:59:46 root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2022-02-08 09:59:46 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2022-02-08 09:59:46 root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2022-02-08 09:59:46 root INFO Deploying backend plugin "cortex-debug@0.3.10" from "/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/cortex-debug/extension/dist/extension"
+2022-02-08 09:59:46 root INFO Deploying backend plugin "vscode-arduino-tools@0.0.2-beta.1" from "/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle"
+2022-02-08 09:59:46 root INFO Deploying backend plugin "cpp@1.52.1" from "/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-cpp/extension"
+2022-02-08 09:59:46 root INFO Deploying backend plugin "json@1.46.1" from "/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json/extension"
+2022-02-08 09:59:46 root INFO Deploying backend plugin "json-language-features@1.46.1" from "/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain"
+2022-02-08 09:59:46 root INFO Deploy plugins list took: 44.4 ms
+2022-02-08 09:59:46 root WARN Backend ConfigServiceImpl.onStart is slow, took: 630.3 ms
+2022-02-08 09:59:46 daemon INFO Starting daemon from /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2022-02-08 09:59:46 daemon INFO Using config file: /home/user/.arduinoIDE/arduino-cli.yaml
+2022-02-08 09:59:46 daemon INFO arduino-cli version 0.20.2
+2022-02-08 09:59:46 daemon INFO Executing `arduino-cli daemon`
+2022-02-08 09:59:46 daemon INFO Setting up Prometheus metrics on :9090/metrics
+2022-02-08 09:59:46 daemon INFO {"IP":"127.0.0.1","Port":"45237"}
+2022-02-08 09:59:46 daemon ERROR listen tcp :9090: bind: address already in use
+2022-02-08 09:59:46 daemon INFO Daemon is running.
+2022-02-08 09:59:48 daemon INFO Checking if CLI is Bundled into the IDE
+2022-02-08 09:59:48 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 09:59:48 daemon INFO URL: https://downloads.arduino.cc/packages/package_index.json
+2022-02-08 09:59:48 daemon INFO Updating index [url: https://downloads.arduino.cc/packages/package_index.json]
+2022-02-08 09:59:48 root INFO Git askpass helper is listening on http://127.0.0.1:35827.
+2022-02-08 09:59:48 root INFO Using Git [2.17.1] from the PATH. (/usr/bin/git)
+2022-02-08 09:59:48 root WARN Frontend CommonFrontendContribution.configure is slow, took: 229.3 ms
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/body-parser
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/cookie
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/dompurify
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/express
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/fs-extra
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/lodash.debounce
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/lodash.throttle
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/react
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/react-dom
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/react-virtualized
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/route-parser
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/safer-buffer
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/ws
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/yargs
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/monaco
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/editor
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/multer
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/rimraf
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/tar-fs
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/uuid
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/navigator
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/p-queue
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/preferences
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/editor-preview
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/keymaps
+2022-02-08 09:59:48 root WARN Failed to resolve module: @theia/messages
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/diff
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/markdown-it
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/mime
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/request
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/atob
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/auth0-js
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/btoa
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/dateformat
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/deepmerge
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/glob
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/google-protobuf
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/js-yaml
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/keytar
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/ncp
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/node-fetch
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/ps-tree
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/react-select
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/react-tabs
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/temp
+2022-02-08 09:59:48 root WARN Failed to resolve module: @types/which
+2022-02-08 09:59:49 root INFO Updating index: package_index.json completed.
+2022-02-08 09:59:49 root INFO Updating index: package_index.json.sig completed.
+2022-02-08 09:59:49 daemon INFO Checking signature [error: opening signature file: open /tmp/231534975.sig: no such file or directory, index: /tmp/231534975, signaturefile: /tmp/231534975.sig]
+2022-02-08 09:59:50 daemon INFO Updating libraries index
+2022-02-08 09:59:50 root ERROR DefaultJsonSchemaContribution.registerSchemas is taking more than 500.0 ms, new schemas are ignored.
+2022-02-08 09:59:50 root INFO Updating index: library_index.json.gz completed.
+2022-02-08 09:59:50 root INFO Updating index: library_index.json.sig completed.
+2022-02-08 09:59:51 daemon INFO Checking signature [index: /home/user/.arduino15/package_index.json, signaturefile: /home/user/.arduino15/package_index.json.sig, trusted: true]
+2022-02-08 09:59:51 daemon INFO Loading hardware from: /home/user/.arduino15/packages
+2022-02-08 09:59:51 daemon INFO Loading package arduino from: /home/user/.arduino15/packages/arduino/hardware
+2022-02-08 09:59:51 daemon INFO Checking signature [error: opening signature file: open /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/installed.json.sig: no such file or directory, index: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/installed.json, signaturefile: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/installed.json.sig]
+2022-02-08 09:59:51 daemon INFO Adding monitor tool [protocol: serial, tool: builtin:serial-monitor]
+2022-02-08 09:59:51 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.4",Latest:"1.8.4",Name:"Arduino AVR Boards"}]
+2022-02-08 09:59:51 daemon INFO Checking existence of 'tools' path: /home/user/.arduino15/packages/arduino/tools
+2022-02-08 09:59:51 daemon INFO Loading tools from dir: /home/user/.arduino15/packages/arduino/tools
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 09:59:51 daemon INFO Loading package builtin from: /home/user/.arduino15/packages/builtin
+2022-02-08 09:59:51 daemon INFO Checking existence of 'tools' path: /home/user/.arduino15/packages/builtin/tools
+2022-02-08 09:59:51 daemon INFO Loading tools from dir: /home/user/.arduino15/packages/builtin/tools
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 09:59:51 daemon INFO Loaded tool [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 09:59:51 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 09:59:51 daemon INFO starting discovery builtin:serial-discovery process
+2022-02-08 09:59:51 daemon INFO starting discovery builtin:mdns-discovery process
+2022-02-08 09:59:51 daemon INFO started discovery builtin:serial-discovery process
+2022-02-08 09:59:51 daemon INFO sending command HELLO 1 "arduino-cli 0.20.2" to discovery builtin:serial-discovery
+2022-02-08 09:59:51 daemon INFO started discovery builtin:mdns-discovery process
+2022-02-08 09:59:51 daemon INFO sending command HELLO 1 "arduino-cli 0.20.2" to discovery builtin:mdns-discovery
+2022-02-08 09:59:51 daemon INFO from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1
+2022-02-08 09:59:51 daemon INFO from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1
+2022-02-08 09:59:51 daemon INFO sending command START_SYNC to discovery builtin:serial-discovery
+2022-02-08 09:59:51 daemon INFO sending command START_SYNC to discovery builtin:mdns-discovery
+2022-02-08 09:59:51 daemon INFO from discovery builtin:mdns-discovery received message type: start_sync, message: OK
+2022-02-08 09:59:51 daemon INFO from discovery builtin:serial-discovery received message type: start_sync, message: OK
+2022-02-08 09:59:52 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 3420.8 ms
+2022-02-08 09:59:52 root WARN Frontend WorkspaceService.onStart is slow, took: 138.7 ms
+2022-02-08 09:59:52 root INFO Board config changed: 
+2022-02-08 09:59:52 root INFO Board config changed: 
+2022-02-08 09:59:52 root INFO Changed application state from 'init' to 'started_contributions'.
+2022-02-08 09:59:52 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2022-02-08 09:59:52 root INFO >>> Restoring the layout state...
+2022-02-08 09:59:52 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809) starting instance
+2022-02-08 09:59:52 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 361.5 ms [Finished 5.831 s after frontend start]
+2022-02-08 09:59:52 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 5 plugins took: 327.1 ms [Finished 6.158 s after frontend start]
+2022-02-08 09:59:53 root INFO <<< The layout has been successfully restored.
+2022-02-08 09:59:54 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Loaded contributions.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Loaded contributions.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Loaded contributions.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Loaded contributions.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Loaded contributions.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 5 plugins took: 98.0 ms [Finished 7.317 s after frontend start]
+2022-02-08 09:59:54 root INFO Finished loading frontend application after 7.349 seconds
+2022-02-08 09:59:54 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2022-02-08 09:59:54 root WARN a registered grammar configuration for 'cpp' language is overridden
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): PluginManagerExtImpl/init()
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] Debugger contribution has been registered: cortex-debug
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 09:59:54 root INFO [hosted-plugin: 11809] PLUGIN_HOST(11809): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 09:59:54 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 799.6 ms [Finished 8.126 s after frontend start]
+2022-02-08 09:59:54 root INFO Starting language server: arduino:avr:mega
+2022-02-08 09:59:54 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2022-02-08 09:59:54 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 09:59:54 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 09:59:54 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 09:59:54 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 09:59:54 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 09:59:54 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 09:59:54 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 09:59:54 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 09:59:55 daemon INFO Resolving include ros.h for arch avr
+2022-02-08 09:59:55 daemon INFO   found better lib [lib: ros_lib, prio: 517]
+2022-02-08 09:59:55 daemon INFO Resolving include Servo.h for arch avr
+2022-02-08 09:59:55 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-02-08 09:59:55 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 09:59:55 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 09:59:56 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 09:59:56 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 09:59:56 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 09:59:56 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 09:59:56 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 09:59:56 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 09:59:56 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 09:59:56 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 09:59:56 daemon INFO Resolving include ros.h for arch avr
+2022-02-08 09:59:56 daemon INFO   found better lib [lib: ros_lib, prio: 517]
+2022-02-08 09:59:56 daemon INFO Resolving include Servo.h for arch avr
+2022-02-08 09:59:56 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-02-08 09:59:56 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 09:59:56 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:00:13 root WARN Frontend CommonFrontendContribution.configure is slow, took: 180.6 ms
+2022-02-08 10:00:14 root WARN Frontend keybindings.onStart is slow, took: 142.6 ms
+2022-02-08 10:00:14 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 271.9 ms
+2022-02-08 10:00:14 root INFO Board config changed: 
+2022-02-08 10:00:14 root INFO Changed application state from 'init' to 'started_contributions'.
+2022-02-08 10:00:14 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2022-02-08 10:00:14 root INFO >>> Restoring the layout state...
+2022-02-08 10:00:14 root INFO <<< Nothing to restore.
+2022-02-08 10:00:14 root INFO [hosted-plugin: 12129] PLUGIN_HOST(12129) starting instance
+2022-02-08 10:00:14 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 359.2 ms [Finished 3.072 s after frontend start]
+2022-02-08 10:00:14 root ERROR DefaultJsonSchemaContribution.registerSchemas is taking more than 500.0 ms, new schemas are ignored.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 5 plugins took: 305.5 ms [Finished 3.378 s after frontend start]
+2022-02-08 10:00:15 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Loaded contributions.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Loaded contributions.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Loaded contributions.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Loaded contributions.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Loaded contributions.
+2022-02-08 10:00:15 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 5 plugins took: 49.6 ms [Finished 3.470 s after frontend start]
+2022-02-08 10:00:15 root INFO Finished loading frontend application after 3.509 seconds
+2022-02-08 10:00:15 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2022-02-08 10:00:15 root WARN a registered grammar configuration for 'cpp' language is overridden
+2022-02-08 10:00:15 root INFO Checking whether '--no-optional-locks' can be used with the current Git executable. Minimum required version is '2.15.0'.
+2022-02-08 10:00:15 root INFO '--no-optional-locks' is a valid Git option for the current Git version: '2.17.1'.
+2022-02-08 10:00:16 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2022-02-08 10:00:16 root INFO [hosted-plugin: 12129] PLUGIN_HOST(12129): PluginManagerExtImpl/init()
+PLUGIN_HOST(12129): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+Debugger contribution has been registered: cortex-debug
+PLUGIN_HOST(12129): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(12129): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(12129): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(12129): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:00:16 root INFO [hosted-plugin: 12129] PLUGIN_HOST(12129): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 10:00:17 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 10:00:17 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 10:00:17 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 10:00:17 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 10:00:17 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 10:00:17 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 1923.0 ms [Finished 5.408 s after frontend start]
+2022-02-08 10:00:17 root INFO Starting language server: arduino:avr:mega
+2022-02-08 10:00:17 root INFO [hosted-plugin: 12129] PLUGIN_HOST(12129): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 10:00:17 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:00:17 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:00:17 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:00:17 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:00:17 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:00:17 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:00:17 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:00:17 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:00:17 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:00:17 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:00:18 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:00:18 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:00:18 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:00:18 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:00:18 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:00:18 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:00:18 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:00:18 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:00:18 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:00:18 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:00:23 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:00:23 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:00:23 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:00:23 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:00:23 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:00:23 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:00:23 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:00:23 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:00:23 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:00:23 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:01:57 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:01:57 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:01:57 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:01:57 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:01:57 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:01:57 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:01:57 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:01:57 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:01:57 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:01:57 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:02:02 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:02:02 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:02:02 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:02:02 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:02:02 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:02:02 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:02:02 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:02:02 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:02:02 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:02:02 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:02:07 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:02:07 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:02:07 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:02:07 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:02:07 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:02:07 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:02:07 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:02:07 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:02:07 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:02:07 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:02:41 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:02:41 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:02:41 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:02:41 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:02:41 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:02:41 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:02:41 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:02:41 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:02:41 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:02:41 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:03:06 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyUSB0
+2022-02-08 10:03:07 root INFO Attached boards and available ports changed:
+2022-02-08 10:03:07 root INFO  - New port is available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 10:03:07 root INFO ------------------------------------------
+2022-02-08 10:03:07 root INFO Attached boards and available ports changed:
+2022-02-08 10:03:07 root INFO  - New port is available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 10:03:07 root INFO ------------------------------------------
+2022-02-08 10:03:07 root INFO Board config changed: 
+2022-02-08 10:03:07 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:07 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:07 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:07 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:10 root INFO Board config changed: 
+2022-02-08 10:03:10 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:10 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:10 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:10 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:20 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:20 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:20 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:20 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:20 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:20 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:20 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:03:20 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:03:20 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:03:20 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:03:21 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:21 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:21 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:21 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:21 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:21 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:21 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 10:03:24 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:24 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:24 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:24 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:24 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:24 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:24 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:03:24 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:03:24 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:03:24 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:03:25 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:25 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:25 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:25 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:25 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:25 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:25 daemon INFO Tool required for upload [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:27 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:27 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:31 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:31 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:48 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:48 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:48 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:48 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:48 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:48 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:48 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:03:48 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:03:48 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:03:48 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:03:49 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:49 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:03:49 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:49 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:49 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:49 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:49 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:03:49 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:03:49 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:03:49 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:03:49 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:49 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:03:49 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:03:49 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:03:49 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:03:49 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:49 daemon INFO Tool required for upload [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:03:56 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:03:56 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:04:43 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:04:43 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:04:43 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:04:43 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:04:43 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:04:43 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:04:43 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:04:43 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:04:43 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:04:43 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:04:43 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:04:43 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:04:43 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:04:43 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:04:43 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:04:43 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:04:43 daemon INFO Tool required for upload [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:04:50 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:04:50 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:05:29 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:05:29 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:05:29 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:05:29 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:05:29 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:05:29 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:05:29 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:05:29 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:05:29 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:05:29 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:05:30 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:05:30 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:05:30 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:05:30 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:05:30 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:05:30 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:05:30 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:05:30 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:05:30 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:05:30 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:05:36 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:05:36 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 10:05:36 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:05:36 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:05:36 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:05:36 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:05:36 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 10:05:36 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 10:05:36 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 10:05:36 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 10:05:36 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:05:36 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:05:36 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 10:05:36 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 10:05:36 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 10:05:36 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 10:05:36 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 10:05:43 serial-service INFO >>> Disposing serial connection...
+2022-02-08 10:05:43 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 10:20:46 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyUSB0
+2022-02-08 10:20:46 root INFO Attached boards and available ports changed:
+2022-02-08 10:20:46 root INFO  - Port is no longer available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 10:20:46 root INFO ------------------------------------------
+2022-02-08 10:20:46 root INFO Board config changed: 
+2022-02-08 10:20:46 root INFO Attached boards and available ports changed:
+2022-02-08 10:20:46 root INFO  - Port is no longer available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 10:20:46 root INFO ------------------------------------------
+2022-02-08 10:20:46 root INFO Board config changed: 
+2022-02-08 10:50:34 serial-service INFO >>> Disposing serial service...
+2022-02-08 10:50:34 serial-service INFO <<< Disposed serial service.
+2022-02-08 10:50:34 serial-service INFO >>> Disposing serial service...
+2022-02-08 10:50:34 serial-service INFO <<< Disposed serial service.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Disconnected.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Disconnected.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Disconnected.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Disconnected.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Disconnected.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Disconnected.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Disconnected.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Disconnected.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 133.5 ms [Finished 3047.581 s after frontend start]
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 0 plugins took: 0.0 ms [Finished 3047.581 s after frontend start]
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 0 plugins took: 0.0 ms [Finished 3047.581 s after frontend start]
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 149.6 ms [Finished 3022.644 s after frontend start]
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 0 plugins took: 0.1 ms [Finished 3022.644 s after frontend start]
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 0 plugins took: 0.1 ms [Finished 3022.644 s after frontend start]
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354) starting instance
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352) starting instance
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): PluginManagerExtImpl/init()
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] Debugger contribution has been registered: cortex-debug
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352): PluginManagerExtImpl/init()
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] Debugger contribution has been registered: cortex-debug
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(16352): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(16352): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16352] PLUGIN_HOST(16352): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 10:50:34 root INFO [hosted-plugin: 16354] PLUGIN_HOST(16354): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 10:50:34 root ERROR [hosted-plugin: 16354] ApplicationInsights:CorrelationIdManager [
+  Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26) {
+    errno: 'ENOTFOUND',
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+]
+2022-02-08 10:50:34 root ERROR [hosted-plugin: 16352] ApplicationInsights:CorrelationIdManager [
+  Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26) {
+    errno: 'ENOTFOUND',
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+]
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 10:50:34 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 331.2 ms [Finished 3047.915 s after frontend start]
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 10:50:34 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 301.1 ms [Finished 3022.960 s after frontend start]
+2022-02-08 12:48:28 daemon INFO from discovery builtin:mdns-discovery received message type: start_sync, message: mdns lookup error: failed to bind to any multicast udp port
+2022-02-08 12:48:32 serial-service INFO >>> Disposing serial service...
+2022-02-08 12:48:32 serial-service INFO <<< Disposed serial service.
+2022-02-08 12:48:32 serial-service INFO >>> Disposing serial service...
+2022-02-08 12:48:32 serial-service INFO <<< Disposed serial service.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Disconnected.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Disconnected.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Disconnected.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Disconnected.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Disconnected.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Disconnected.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Disconnected.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Disconnected.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 127.0 ms [Finished 3057.771 s after frontend start]
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 0 plugins took: 0.0 ms [Finished 3057.771 s after frontend start]
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 0 plugins took: 0.0 ms [Finished 3057.771 s after frontend start]
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 134.3 ms [Finished 3032.823 s after frontend start]
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 0 plugins took: 0.0 ms [Finished 3032.823 s after frontend start]
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 0 plugins took: 0.0 ms [Finished 3032.823 s after frontend start]
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658) starting instance
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659) starting instance
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658): PluginManagerExtImpl/init()
+PLUGIN_HOST(16658): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+Debugger contribution has been registered: cortex-debug
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(16658): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): PluginManagerExtImpl/init()
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] Debugger contribution has been registered: cortex-debug
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16658] PLUGIN_HOST(16658): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 12:48:32 root INFO [hosted-plugin: 16659] PLUGIN_HOST(16659): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 12:48:32 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 317.7 ms [Finished 3058.091 s after frontend start]
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 12:48:32 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 327.3 ms [Finished 3033.153 s after frontend start]
+2022-02-08 13:08:31 serial-service INFO >>> Disposing serial service...
+2022-02-08 13:08:31 serial-service INFO <<< Disposed serial service.
+2022-02-08 13:08:31 serial-service INFO >>> Disposing serial service...
+2022-02-08 13:08:31 serial-service INFO <<< Disposed serial service.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Disconnected.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Disconnected.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Disconnected.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Disconnected.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Disconnected.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Disconnected.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Disconnected.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Disconnected.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 133.2 ms [Finished 4256.502 s after frontend start]
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 0 plugins took: 0.0 ms [Finished 4256.503 s after frontend start]
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 0 plugins took: 0.1 ms [Finished 4256.503 s after frontend start]
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 142.6 ms [Finished 4231.563 s after frontend start]
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 0 plugins took: 0.0 ms [Finished 4231.563 s after frontend start]
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 0 plugins took: 0.0 ms [Finished 4231.563 s after frontend start]
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358) starting instance
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356) starting instance
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): PluginManagerExtImpl/init()
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): PluginManagerExtImpl/init()
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] Debugger contribution has been registered: cortex-debug
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] Debugger contribution has been registered: cortex-debug
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17358] PLUGIN_HOST(17358): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 13:08:31 root INFO [hosted-plugin: 17356] PLUGIN_HOST(17356): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 13:08:31 root ERROR [hosted-plugin: 17358] ApplicationInsights:CorrelationIdManager [
+  Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26) {
+    errno: 'ENOTFOUND',
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+]
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 13:08:31 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 309.5 ms [Finished 4231.875 s after frontend start]
+2022-02-08 13:08:31 root ERROR [hosted-plugin: 17356] ApplicationInsights:CorrelationIdManager [
+  Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26) {
+    errno: 'ENOTFOUND',
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+]
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 13:08:31 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 336.8 ms [Finished 4256.842 s after frontend start]
+2022-02-08 15:47:11 serial-service INFO >>> Disposing serial service...
+2022-02-08 15:47:11 serial-service INFO <<< Disposed serial service.
+2022-02-08 15:47:11 serial-service INFO >>> Disposing serial service...
+2022-02-08 15:47:11 serial-service INFO <<< Disposed serial service.
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Disconnected.
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Disconnected.
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Disconnected.
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Disconnected.
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Disconnected.
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Disconnected.
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Disconnected.
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Disconnected.
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 130.3 ms [Finished 4267.959 s after frontend start]
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 0 plugins took: 0.0 ms [Finished 4267.960 s after frontend start]
+2022-02-08 15:47:11 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 0 plugins took: 0.1 ms [Finished 4267.960 s after frontend start]
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 141.2 ms [Finished 4243.018 s after frontend start]
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 0 plugins took: 0.0 ms [Finished 4243.018 s after frontend start]
+2022-02-08 15:47:11 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 0 plugins took: 0.0 ms [Finished 4243.018 s after frontend start]
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720) starting instance
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718) starting instance
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): PluginManagerExtImpl/init()
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): PluginManagerExtImpl/init()
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] Debugger contribution has been registered: cortex-debug
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] Debugger contribution has been registered: cortex-debug
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17720] PLUGIN_HOST(17720): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 15:47:12 root INFO [hosted-plugin: 17718] PLUGIN_HOST(17718): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 15:47:12 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 15:47:12 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 15:47:12 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 15:47:12 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 15:47:12 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 15:47:12 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 334.0 ms [Finished 4243.355 s after frontend start]
+2022-02-08 15:47:12 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 15:47:12 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 15:47:12 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 15:47:12 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 15:47:12 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 15:47:12 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 353.6 ms [Finished 4268.317 s after frontend start]
+2022-02-08 16:12:39 serial-service INFO >>> Disposing serial service...
+2022-02-08 16:12:39 serial-service INFO <<< Disposed serial service.
+2022-02-08 16:12:39 serial-service INFO >>> Disposing serial service...
+2022-02-08 16:12:39 serial-service INFO <<< Disposed serial service.
+2022-02-08 16:12:39 root WARN Possible Emitter memory leak detected. 176 listeners added. Use event.maxListeners to increase the limit (175). MOST frequent listener (1):
+2022-02-08 16:12:39 root WARN     at ElectronWebSocketConnectionProvider._event.Object.assign.maxListeners [as onHttpFallbackDidActivate] (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57057:54)
+    at ElectronWebSocketConnectionProvider.openChannel (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:39340:18)
+    at ElectronWebSocketConnectionProvider.openChannel (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:62213:19)
+    at file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:58624:26
+    at file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:59189:60
+    at file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57015:69
+    at CallbackList.invoke (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57021:26)
+    at Emitter.fire (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57133:29)
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Disconnected.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Disconnected.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Disconnected.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Disconnected.
+2022-02-08 16:12:39 root WARN Possible Emitter memory leak detected. 176 listeners added. Use event.maxListeners to increase the limit (175). MOST frequent listener (1):
+2022-02-08 16:12:39 root WARN     at ElectronWebSocketConnectionProvider._event.Object.assign.maxListeners [as onHttpFallbackDidActivate] (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57057:54)
+    at ElectronWebSocketConnectionProvider.openChannel (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:39340:18)
+    at ElectronWebSocketConnectionProvider.openChannel (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:62213:19)
+    at file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:58624:26
+    at file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:59189:60
+    at file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57015:69
+    at CallbackList.invoke (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57021:26)
+    at Emitter.fire (file:///home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/lib/bundle.js:57133:29)
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Disconnected.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Disconnected.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Disconnected.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Disconnected.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 138.5 ms [Finished 5770.663 s after frontend start]
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 0 plugins took: 0.0 ms [Finished 5770.663 s after frontend start]
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 0 plugins took: 0.0 ms [Finished 5770.663 s after frontend start]
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 127.5 ms [Finished 5795.638 s after frontend start]
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 0 plugins took: 0.0 ms [Finished 5795.638 s after frontend start]
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 0 plugins took: 0.0 ms [Finished 5795.639 s after frontend start]
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305) starting instance
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306) starting instance
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): PluginManagerExtImpl/init()
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] Debugger contribution has been registered: cortex-debug
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): PluginManagerExtImpl/init()
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] Debugger contribution has been registered: cortex-debug
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19305] PLUGIN_HOST(19305): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 16:12:39 root INFO [hosted-plugin: 19306] PLUGIN_HOST(19306): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 16:12:39 root ERROR [hosted-plugin: 19305] ApplicationInsights:CorrelationIdManager [
+  Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26) {
+    errno: 'ENOTFOUND',
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+]
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 16:12:39 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 337.6 ms [Finished 5771.004 s after frontend start]
+2022-02-08 16:12:39 root ERROR [hosted-plugin: 19306] ApplicationInsights:CorrelationIdManager [
+  Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26) {
+    errno: 'ENOTFOUND',
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+]
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 16:12:39 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 329.0 ms [Finished 5795.970 s after frontend start]
+2022-02-08 16:46:48 serial-service INFO >>> Disposing serial service...
+2022-02-08 16:46:48 serial-service INFO <<< Disposed serial service.
+2022-02-08 16:46:48 serial-service INFO >>> Disposing serial service...
+2022-02-08 16:46:48 serial-service INFO <<< Disposed serial service.
+2022-02-08 16:46:48 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Disconnected.
+2022-02-08 16:46:48 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Disconnected.
+2022-02-08 16:46:48 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Disconnected.
+2022-02-08 16:46:48 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 16:46:48 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Disconnected.
+2022-02-08 16:46:48 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Disconnected.
+2022-02-08 16:46:48 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Disconnected.
+2022-02-08 16:46:48 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Disconnected.
+2022-02-08 16:46:48 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Disconnected.
+2022-02-08 16:46:48 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Disconnected.
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Waiting for backend deployment took: 133.4 ms [Finished 5780.585 s after frontend start]
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Sync of 0 plugins took: 0.0 ms [Finished 5780.585 s after frontend start]
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Load contributions of 0 plugins took: 0.0 ms [Finished 5780.585 s after frontend start]
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Waiting for backend deployment took: 123.2 ms [Finished 5805.569 s after frontend start]
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Sync of 0 plugins took: 0.0 ms [Finished 5805.569 s after frontend start]
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Load contributions of 0 plugins took: 0.0 ms [Finished 5805.569 s after frontend start]
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676) starting instance
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): PluginManagerExtImpl/init()
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677) starting instance
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] Debugger contribution has been registered: cortex-debug
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): PluginManagerExtImpl/init()
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): initializing(cortex-debug@0.3.10 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] Debugger contribution has been registered: cortex-debug
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): initializing(vscode-arduino-tools@0.0.2-beta.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): initializing(cpp@1.52.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): initializing(json@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): initializing(json-language-features@1.46.1 with /home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19676] PLUGIN_HOST(19676): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 16:46:49 root INFO [hosted-plugin: 19677] PLUGIN_HOST(19677): PluginManagerExtImpl/loadPlugin(/home/user/arduino-ide_2.0.0-rc3_Linux_64bit/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][marus25.cortex-debug]: Started plugin.
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.cpp]: Started plugin.
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json]: Started plugin.
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9][vscode.json-language-features]: Started plugin.
+2022-02-08 16:46:49 root INFO [54cfde9c-50f8-4595-a282-f8ddda4844a9] Start of 5 plugins took: 331.7 ms [Finished 5780.920 s after frontend start]
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][marus25.cortex-debug]: Started plugin.
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][arduino.vscode-arduino-tools]: Started plugin.
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.cpp]: Started plugin.
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json]: Started plugin.
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7][vscode.json-language-features]: Started plugin.
+2022-02-08 16:46:49 root INFO [759cb530-e963-43f6-ad9c-5e4baac81cb7] Start of 5 plugins took: 323.7 ms [Finished 5805.895 s after frontend start]
+2022-02-08 16:47:36 daemon INFO from discovery builtin:serial-discovery received message type: add, port: /dev/ttyUSB0
+2022-02-08 16:47:36 root INFO Attached boards and available ports changed:
+2022-02-08 16:47:36 root INFO  - New port is available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 16:47:36 root INFO ------------------------------------------
+2022-02-08 16:47:36 root INFO Board config changed: 
+2022-02-08 16:47:36 root INFO Attached boards and available ports changed:
+2022-02-08 16:47:36 root INFO  - New port is available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 16:47:36 root INFO ------------------------------------------
+2022-02-08 16:47:36 root INFO Board config changed: 
+2022-02-08 16:47:37 serial-service INFO >>> Disposing serial connection...
+2022-02-08 16:47:37 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 16:47:37 serial-service INFO >>> Disposing serial connection...
+2022-02-08 16:47:37 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 16:47:37 serial-service INFO >>> Disposing serial connection...
+2022-02-08 16:47:37 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 16:47:37 serial-service INFO >>> Disposing serial connection...
+2022-02-08 16:47:37 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 16:48:40 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 16:48:40 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 16:48:40 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 16:48:40 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 16:48:40 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 16:48:40 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 16:48:40 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 16:48:40 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 16:48:40 daemon INFO Resolving include ros.h for arch avr
+2022-02-08 16:48:40 daemon INFO   found better lib [lib: ros_lib, prio: 517]
+2022-02-08 16:48:40 daemon INFO Resolving include Servo.h for arch avr
+2022-02-08 16:48:40 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-02-08 16:48:40 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 16:48:40 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 16:48:42 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 16:48:42 daemon INFO inventory.Store.ConfigFileUsed() /home/user/.arduino15/inventory.yaml
+2022-02-08 16:48:42 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 16:48:42 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 16:48:42 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 16:48:42 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 16:48:42 daemon INFO Adding libraries dir [dir: /home/user/.arduino15/packages/arduino/hardware/avr/1.8.4/libraries, location: platform]
+2022-02-08 16:48:42 daemon INFO Adding libraries dir [dir: /home/user/Arduino/libraries, location: user]
+2022-02-08 16:48:42 daemon INFO Resolving include ros.h for arch avr
+2022-02-08 16:48:42 daemon INFO   found better lib [lib: ros_lib, prio: 517]
+2022-02-08 16:48:42 daemon INFO Resolving include Servo.h for arch avr
+2022-02-08 16:48:42 daemon INFO   found better lib [lib: Servo, prio: 64D]
+2022-02-08 16:48:42 daemon INFO Resolving include AccelStepper.h for arch avr
+2022-02-08 16:48:42 daemon INFO   found better lib [lib: AccelStepper, prio: 643]
+2022-02-08 16:48:42 serial-service INFO >>> Disposing serial connection...
+2022-02-08 16:48:42 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 16:48:42 daemon INFO Searching tools required for board arduino:avr:mega
+2022-02-08 16:48:42 daemon INFO Required tool [tool: {ToolName:"arduinoOTA",ToolVersion:"1.3.0",ToolPackager:"arduino"}]
+2022-02-08 16:48:42 daemon INFO Required tool [tool: {ToolName:"avr-gcc",ToolVersion:"7.3.0-atmel3.6.1-arduino7",ToolPackager:"arduino"}]
+2022-02-08 16:48:42 daemon INFO Required tool [tool: {ToolName:"avrdude",ToolVersion:"6.3.0-arduino17",ToolPackager:"arduino"}]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 1.0.5 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 0.9.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2022-02-08 16:48:42 daemon INFO Tool required for upload [tool: Version: 1.3.1 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: arm64-linux-gnueabihf]]
+2022-02-08 16:48:51 serial-service INFO >>> Disposing serial connection...
+2022-02-08 16:48:51 serial-service WARN <<< Not connected. Nothing to dispose.
+2022-02-08 16:56:45 daemon INFO from discovery builtin:serial-discovery received message type: remove, port: /dev/ttyUSB0
+2022-02-08 16:56:45 root INFO Attached boards and available ports changed:
+2022-02-08 16:56:45 root INFO  - Port is no longer available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 16:56:45 root INFO Attached boards and available ports changed:
+2022-02-08 16:56:45 root INFO ------------------------------------------
+2022-02-08 16:56:45 root INFO  - Port is no longer available on /dev/ttyUSB0 /dev/ttyUSB0
+2022-02-08 16:56:45 root INFO Board config changed: 
+2022-02-08 16:56:45 root INFO ------------------------------------------
+2022-02-08 16:56:45 root INFO Board config changed: 
+2022-02-08 17:03:41 serial-service INFO >>> Disposing serial service...
+2022-02-08 17:03:41 serial-service INFO <<< Disposed serial service.
+2022-02-08 17:03:41 serial-service INFO >>> Disposing serial service...
+2022-02-08 17:03:41 serial-service INFO <<< Disposed serial service.

@@ -1,0 +1,8 @@
+prefix=/home/user/4_ws/install
+
+Name: lau
+Description: Description of lau
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

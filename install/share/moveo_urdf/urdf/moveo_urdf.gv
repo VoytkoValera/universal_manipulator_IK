@@ -1,0 +1,41 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"Link_1" [label="Link_1"];
+"Link_2" [label="Link_2"];
+"Link_3" [label="Link_3"];
+"Link_4" [label="Link_4"];
+"Link_5" [label="Link_5"];
+"Gripper_Idol_Gear" [label="Gripper_Idol_Gear"];
+"Tip_Gripper_Idol" [label="Tip_Gripper_Idol"];
+"Gripper_Servo_Gear" [label="Gripper_Servo_Gear"];
+"Tip_Gripper_Servo" [label="Tip_Gripper_Servo"];
+"Pivot_Arm_Gripper_Idol" [label="Pivot_Arm_Gripper_Idol"];
+"Pivot_Arm_Gripper_Servo" [label="Pivot_Arm_Gripper_Servo"];
+"odom" [label="odom"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "Joint_1" [label="xyz: 0 -0.2425 0.13 \nrpy: 1.5708 8.32667e-17 2.7766"]
+"Joint_1" -> "Link_1"
+"Link_1" -> "Joint_2" [label="xyz: 0 0.18264 0 \nrpy: 3.14159 0.95134 1.5708"]
+"Joint_2" -> "Link_2"
+"Link_2" -> "Joint_3" [label="xyz: 0 0 -0.22112 \nrpy: 3.14159 0.98126 3.14159"]
+"Joint_3" -> "Link_3"
+"Link_3" -> "Joint_4" [label="xyz: 0.16988 -0.00099213 0 \nrpy: -3.14159 -1.2279 1.5708"]
+"Joint_4" -> "Link_4"
+"Link_4" -> "Joint_5" [label="xyz: -0.0021346 0.053041 0.0016936 \nrpy: -1.5639 -0.091135 -0.00062919"]
+"Joint_5" -> "Link_5"
+"Link_5" -> "Gripper_Idol_Gear_Joint" [label="xyz: -0.052696 -0.01387 0.038065 \nrpy: 2.2091 -0.040996 1.626"]
+"Gripper_Idol_Gear_Joint" -> "Gripper_Idol_Gear"
+"Gripper_Idol_Gear" -> "Tip_Gripper_Idol_Joint" [label="xyz: -0.039906 -0.000125 -0.0027473 \nrpy: -3.14159 0.5236 -3.14159"]
+"Tip_Gripper_Idol_Joint" -> "Tip_Gripper_Idol"
+"Link_5" -> "Gripper_Servo_Gear_Joint" [label="xyz: -0.05013 0.01413 0.041516 \nrpy: 0.9321 0.032705 -1.5268"]
+"Gripper_Servo_Gear_Joint" -> "Gripper_Servo_Gear"
+"Gripper_Servo_Gear" -> "Tip_Gripper_Servo_Joint" [label="xyz: -0.039906 -0.004 -0.0027473 \nrpy: 3.14159 -1.5569 -2.0392e-12"]
+"Tip_Gripper_Servo_Joint" -> "Tip_Gripper_Servo"
+"Link_5" -> "Pivot_Arm_Gripper_Idol_Joint" [label="xyz: -0.06867 -0.00687 0.0501 \nrpy: 0.93138 1.76437e-12 -1.5708"]
+"Pivot_Arm_Gripper_Idol_Joint" -> "Pivot_Arm_Gripper_Idol"
+"Link_5" -> "Pivot_Arm_Gripper_Servo_Joint" [label="xyz: -0.068745 0.00713 0.05 \nrpy: 0.93142 -0.0083007 -1.582"]
+"Pivot_Arm_Gripper_Servo_Joint" -> "Pivot_Arm_Gripper_Servo"
+"base_link" -> "odom_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"odom_joint" -> "odom"
+}
